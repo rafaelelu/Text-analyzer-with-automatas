@@ -1,0 +1,60 @@
+body {
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+textarea {
+    background-color: black;
+    width: 85%;
+    height: 400px;
+    font-size: 0.9em;
+    line-height: 1.2;
+    color: lime;
+    resize: none;
+    border-radius: 25px;
+    padding: 10px;
+    border-color: #70724D;
+    border-width: 5px;
+}
+
+.text-area-container {
+    height: 100%;
+}
+
+.half-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.half-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.main-title {
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.button {
+    background-color: #70724D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgba(112, 114, 77, 0.822);
+}

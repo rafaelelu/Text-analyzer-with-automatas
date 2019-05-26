@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-title">
+        <h1>Matemáticas Computacionales</h1>
+        <h1>Proyecto Primer Parcial</h1>
+    </div>
+    <div class="text-area-container">
+        <div class="half-left">
+            <center><textarea id="textareaInput" placeholder="Aquí va el texto que se desea analizar..."></textarea></center>
+        </div>
+        <div class="half-right">
+            <center><textarea id="textareaOutput" readonly placeholder="Aquí estará el texto analizado..."></textarea></center>
+        </div>
+    </div>
+    <center>
+        <div class="buttons">
+            <button class="button" id="bAnalyze">Analizar texto</button>
+            <button class="button" id="bReset">Borrar toto</button>
+        </div>
+    </center>
+    <script src="automatalib.js"></script>
+    <script src="automatasetup.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
